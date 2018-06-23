@@ -1,0 +1,13 @@
+初始化信息素的值
+while 迭代步数不大于 N1：
+	for 每只蚂蚁k do：
+		while 可选择集合allowed k非空 do：
+			计算选择项j属于allowed的概率P
+			根据随机比例规则选择某项j
+			if 项j满足问题约束 then
+			 将项j加入部分解S
+			从候选集allowed中移除项j
+	记录最好的蚂蚁
+	更新信息素的值
+结束
+			
